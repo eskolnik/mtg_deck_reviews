@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'foundation-rails'
 
+# Use Devise for user authentication
+gem 'devise'
+
 group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
